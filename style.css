@@ -611,5 +611,8 @@ footer {
             font-family: "Cabinet Grotesk", sans-serif;
             font-size: 1.333rem;
         }
+        p, li {
+            font-size: 1rem;
+        }
     }
 }
