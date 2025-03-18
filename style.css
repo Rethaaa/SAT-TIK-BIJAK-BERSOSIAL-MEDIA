@@ -594,4 +594,22 @@ footer {
     .penutup {
         padding: 0 50px 25px 50px;
     }
+    .content {
+        h2 {
+            font-family: "Cabinet Grotesk", sans-serif;
+            font-size: 3.157rem;
+        }
+        h3 {
+            font-family: "Cabinet Grotesk", sans-serif;
+            font-size: 2.369rem;
+        }
+        h4 {
+            font-family: "Cabinet Grotesk", sans-serif;
+            font-size: 1.777rem;
+        }
+        h5 {
+            font-family: "Cabinet Grotesk", sans-serif;
+            font-size: 1.333rem;
+        }
+    }
 }
