@@ -589,7 +589,7 @@ footer {
 
 @media only screen and (max-width: 560px) {
     .pendahuluan, .pembahasan {
-        padding: 25px 50px 25px 50px;
+        padding: 75px 50px;
     }
     .penutup {
         padding: 0 50px 25px 50px;
