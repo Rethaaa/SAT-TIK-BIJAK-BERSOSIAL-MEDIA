@@ -311,7 +311,7 @@ nav .nav-list a:hover, .dropdown-btn:hover {
     text-align: justify;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    /* gap: 50px; */
     overflow: hidden;
     z-index: 200;
 }
@@ -319,7 +319,7 @@ nav .nav-list a:hover, .dropdown-btn:hover {
     display: flex;
     padding: 50px 100px;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     h3, h4 { 
         text-align: center;
     }
@@ -366,7 +366,7 @@ nav .nav-list a:hover, .dropdown-btn:hover {
 .latar, .tujuan, .manfaat, .pembahasan1, .pembahasan2, .pembahasan3, .pembahasan4, .pembahasan5, .pembahasan6, .kesimpulan, .saran {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 .sosial-media {
     display: flex;
@@ -378,30 +378,33 @@ nav .nav-list a:hover, .dropdown-btn:hover {
 }
 .media {
     width: 270px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: justify;
     text-align: center;
     gap: 32px;
     background-color: var(--clr2);
-    padding: 15px 30px;
+    padding: 30px;
     border-radius: 20px;
-    animation: listAnimation 1s linear forwards;
-    animation-timeline: view();
+}
+.keuntungan {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 .side-side {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(35vw, 1fr));
     gap: 50px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
-.pembahasan2 .side-side p {
-    background-color: var(--clr3);
-    padding: 15px 30px;
-    border-radius: 20px;
+.side-side img {
+    border-radius: 15px;
 }
-.pembahasan3 .side-side p {
+.pembahasan2 .side-side p, .pembahasan3 .side-side p {
     background-color: var(--clr2);
     padding: 15px 30px;
     border-radius: 20px;
